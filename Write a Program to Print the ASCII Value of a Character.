@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char B='A';
+    cout<<"the ASCII value of "<< B << " is "<<int(B); 
+
+    return 0;
+}
