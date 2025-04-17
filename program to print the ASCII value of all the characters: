@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   char c='A';
+   cout<<"character\tASCII value\n";
+   for(c='A';c<='Z';c++){
+       cout<<c<<"\t\t\t"<<int(c)<<"\n";
+   }
+    return 0;
+}
