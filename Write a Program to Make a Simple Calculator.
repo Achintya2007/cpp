@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  char op;
+  double a,b,res;
+  
+  cout<<"enter an operator (+,-,*,/)=";
+  cin>>op;
+  cout<<"enter the value=";
+  cin>>a>>b;
+  switch(op){
+      case '+':
+             res=a+b;
+             cout<<"add="<<res;
+             break;
+      case '-':
+             res=a-b;
+             cout<<"sub="<<res;
+             break;
+      case '*':
+             res=a*b;
+             cout<<"mul="<<res;
+             break;
+      case '/':
+             res=a/b;
+               cout<<"div="<<res;
+             break;
+      default:
+          cout<<"operator is not correct";
+    }
+  
+
+    return 0;
+}
